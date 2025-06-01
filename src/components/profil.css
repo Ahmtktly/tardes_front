@@ -1,0 +1,41 @@
+.profil-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .profil-container h2 {
+    color: #4caf50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profil-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .profil-card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4caf50;
+  }
+  
+  .profil-card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.3rem 0;
+  }
+  
+  .profil-card strong {
+    color: #555;
+  }
+  

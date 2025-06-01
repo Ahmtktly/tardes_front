@@ -1,0 +1,56 @@
+.profil-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    font-family: Arial, sans-serif;
+  }
+  
+  .profil-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4caf50;
+  }
+  
+  .profil-form .row {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profil-form label {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .profil-form input,
+  .profil-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .profil-form textarea {
+    min-height: 80px;
+  }
+  
+  .profil-form button {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .profil-form button:hover {
+    background-color: #43a047;
+  }
+  

@@ -1,0 +1,86 @@
+.appbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #4caf50;
+}
+
+.auth-right {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-right a {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 1.6rem;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 2.2rem;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  z-index: 999;
+}
+
+.profile-dropdown a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.profile-dropdown a:hover {
+  background-color: #f3f3f3;
+}
