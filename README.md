@@ -1,12 +1,58 @@
-# React + Vite
+# 🥘 Tardes - Yemek Tarifi, Blog ve Chatbot Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tardes**, kullanıcıların yemek tarifleri görüntüleyip paylaşabildiği, blog yazıları yazıp yorum yapabildiği, profil bilgilerini oluşturabildiği ve ayrıca yapay zekâ destekli bir sohbet robotu (chatbot) ile iletişim kurabildiği etkileşimli bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+Uygulama React ile geliştirilmiştir ve FastAPI tabanlı bir backend servisiyle haberleşmektedir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Özellikler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Kullanıcı Giriş ve Kayıt
+- Kullanıcılar kullanıcı adı, şifre, doğum tarihi, cinsiyet ve şehir bilgileriyle kayıt olabilir.
+- JWT tabanlı kullanıcı doğrulama yapılır.
+- Giriş sonrası bilgiler `localStorage`'a kaydedilir.
+
+### 🧑‍💼 Profil Oluşturma ve Görüntüleme
+- Kullanıcılar giriş yaptıktan sonra profil oluşturabilir.
+- Profilde şu bilgiler yer alır:
+  - Bio
+  - Favori yemek
+  - Şehir
+  - Profil fotoğrafı URL’si
+- Profil oluşturulmamışsa sistem otomatik olarak yönlendirir.
+
+### 📒 Blog Yazıları
+- Kullanıcılar başlık, içerik ve etiketler girerek blog yazısı paylaşabilir.
+- Yazılara diğer kullanıcılar:
+  - ❤️ Beğeni gönderebilir
+  - 💬 Yorum yapabilir
+- Beğeni ve yorum işlemleri sadece giriş yapılmış kullanıcılar tarafından yapılabilir.
+
+### 💬 Tardes Chatbot
+- Yapay zekâ destekli chatbot ile kullanıcılar etkileşim kurabilir.
+- Mesajlaşma kısmı ayrı bir sayfada çalışmaktadır.
+- Geliştirme süreci devam etmektedir.
+
+### 🧭 Navigasyon ve UI
+- Her sayfa `React Router` ile yönlendirilir.
+- Navigasyon çubuğunda kullanıcı durumuna göre "Profil", "Profil Oluştur", "Giriş Yap", "Çıkış Yap" gibi bağlantılar dinamik olarak değişir.
+- Responsive ve sade bir kullanıcı arayüzüne sahiptir.
+- Formlar kullanıcı dostu validasyonlarla desteklenmiştir.
+
+---
+
+## ⚙️ Teknolojiler
+
+- **React.js**  
+- **Axios** – API istekleri için  
+- **React Router** – Sayfa geçişleri için  
+- **CSS** – Özel stiller ve komponent düzeni  
+- **JWT** – Kullanıcı doğrulama
+
+---
+
+## 👨‍💻 Gelistirici
+
+- Ahmet KUTLUAY
+- Ahmet Said ATEŞ
